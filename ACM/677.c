@@ -32,16 +32,16 @@ void solve677(int i){
     }
     
 }
-int main(){
-    freopen("/Users/naziaafroz/Desktop/ACM/ACM/677.txt", "r", stdin);
-    while (2 == scanf("%d %d", &V, &walkOfLength)) {
-        int i, j;
-        for (i = 1; i <= V; i++)
-            for (j = 1; j <= V; j++)
-                scanf("%d", &Graph[i][j]);
-        output[0] = 1;
-        solve677(1);
-    }
-//    printf("677");
-    return 0;
-}
+//int main(){
+//    freopen("/Users/naziaafroz/Desktop/ACM/ACM/677.txt", "r", stdin);
+//    while (2 == scanf("%d %d", &V, &walkOfLength)) {
+//        int i, j;
+//        for (i = 1; i <= V; i++)
+//            for (j = 1; j <= V; j++)
+//                scanf("%d", &Graph[i][j]);
+//        output[0] = 1;
+//        solve677(1);
+//    }
+////    printf("677");
+//    return 0;
+//}
