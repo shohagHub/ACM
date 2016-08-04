@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8919D9781D4A9C4200251EDE /* 539.c in Sources */ = {isa = PBXBuildFile; fileRef = 8919D9771D4A9C4200251EDE /* 539.c */; };
+		89A8DFF41D4BEB680026E87E /* 624.c in Sources */ = {isa = PBXBuildFile; fileRef = 89A8DFF31D4BEB680026E87E /* 624.c */; };
 		89CD2F5A1D4A5EBA00D9259A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 89CD2F591D4A5EBA00D9259A /* main.c */; };
 		89CD2F611D4A5EDA00D9259A /* 380.c in Sources */ = {isa = PBXBuildFile; fileRef = 89CD2F601D4A5EDA00D9259A /* 380.c */; };
+		89DD20BA1D525B3400962ECC /* 677.c in Sources */ = {isa = PBXBuildFile; fileRef = 89DD20B91D525B3400962ECC /* 677.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,11 +29,14 @@
 /* Begin PBXFileReference section */
 		8919D9771D4A9C4200251EDE /* 539.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 539.c; sourceTree = "<group>"; };
 		8919D9791D4A9C5D00251EDE /* 539.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 539.txt; sourceTree = "<group>"; };
+		89A8DFF31D4BEB680026E87E /* 624.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 624.c; sourceTree = "<group>"; };
 		89CD2F561D4A5EBA00D9259A /* ACM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ACM; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CD2F591D4A5EBA00D9259A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		89CD2F601D4A5EDA00D9259A /* 380.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 380.c; sourceTree = "<group>"; };
 		89CD2F621D4A5F3D00D9259A /* 380.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 380.txt; sourceTree = "<group>"; };
 		89CD2F631D4A77E200D9259A /* 380_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 380_2.txt; sourceTree = "<group>"; };
+		89DD20B91D525B3400962ECC /* 677.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 677.c; sourceTree = "<group>"; };
+		89DD20BB1D52659100962ECC /* 677.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 677.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +75,9 @@
 				89CD2F631D4A77E200D9259A /* 380_2.txt */,
 				8919D9771D4A9C4200251EDE /* 539.c */,
 				8919D9791D4A9C5D00251EDE /* 539.txt */,
+				89A8DFF31D4BEB680026E87E /* 624.c */,
+				89DD20B91D525B3400962ECC /* 677.c */,
+				89DD20BB1D52659100962ECC /* 677.txt */,
 			);
 			path = ACM;
 			sourceTree = "<group>";
@@ -130,8 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DD20BA1D525B3400962ECC /* 677.c in Sources */,
 				8919D9781D4A9C4200251EDE /* 539.c in Sources */,
 				89CD2F5A1D4A5EBA00D9259A /* main.c in Sources */,
+				89A8DFF41D4BEB680026E87E /* 624.c in Sources */,
 				89CD2F611D4A5EDA00D9259A /* 380.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
